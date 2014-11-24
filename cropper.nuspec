@@ -4,7 +4,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cropper</id>
     <title>Cropper</title>
-    <version>1.9.4</version>
+    <version>1.9.4.20141123</version>
     <authors>Brian Scott and Terry Hughes</authors>
     <owners>David Carroll</owners>
     <summary>Point and shoot screen captures.</summary>
@@ -13,6 +13,7 @@
     <tags>cropper screenshot screen capture</tags>
     <licenseUrl>https://cropper.codeplex.com/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/websocially/chocolatey-packages/master/cropper.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
