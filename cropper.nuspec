@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>cropper</id>
+    <title>Cropper</title>
+    <version>1.9.4</version>
+    <authors>Brian Scott and Terry Hughes</authors>
+    <owners>David Carroll</owners>
+    <summary>Point and shoot screen captures.</summary>
+    <description>Cropper is a screen capture utility written in C#. It makes it fast and easy to grab parts of your screen. Use it to easily crop out sections of vector graphic files such as Fireworks without having to flatten the files or open in a new editor. Use it to easily capture parts of a web site, including text and images. It's also great for writing documentation that needs images of your application or web site.</description>
+    <projectUrl>https://cropper.codeplex.com/</projectUrl>
+    <tags>cropper screenshot screen capture</tags>
+    <licenseUrl>https://cropper.codeplex.com/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
